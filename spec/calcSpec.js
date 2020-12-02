@@ -22,4 +22,5 @@ describe ("Calculator", function() {
             expect(window.alert).toHaveBeenCalledWith("Error!");
     });
 });
+   
 });
