@@ -23,4 +23,12 @@ describe("Calculator", function (){
             
             expect(Calculator.add(val3, num2)).toBe("Error!");
         });
+        it("should return Error", function() {
+            
+            expect(Calculator.add(num1, val3)).toBe("Error!");
+        });
+        it("should return Error", function() {
+            
+            expect(Calculator.add(val3, val3)).toBe("Error!");
+        });
 });
